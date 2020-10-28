@@ -14,11 +14,12 @@ being irradiated with the radiation dosage. The surviving population follows the
     4. conda config --set always_yes yes --set changeps1 no
     5. conda info -a
 
-    #### Managing conda virtual environment. For details, check here
+    #### Managing conda environment 
 
     1. create: conda create -n skater-test python=3.6
     2. activate: source activate skater-test
-    3. install the following packages:       
+    
+    #### Packages
        - conda install numpy==1.17.4
        - conda install scipy==1.5.2
        - conda install matplotlib==3.1.1
@@ -29,4 +30,4 @@ being irradiated with the radiation dosage. The surviving population follows the
        - conda install xldr
        - conda install jupyter
        - conda install -c conda-forge Skater
-    4. run 'jupyter notebook' in the same folder where notebook.ipynb lives.
+  - run 'jupyter notebook' in the same folder where notebook.ipynb lives.
